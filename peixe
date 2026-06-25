@@ -1,0 +1,24 @@
+public class peixe extends animal {
+    private String escama;
+    private String cor;
+    private String Habitat;
+    private int tamanho;
+
+    public peixe (String Nome,String Escama,String especie,int idade,String cor,String habitat,int tamanho){
+        super(Nome, idade, habitat);
+        this.tamanho=tamanho;
+        this.escama=escama;
+        this.cor=cor;
+        this.Habitat=habitat;
+    }
+    @Override
+    public void exibirInformacoes(){
+        System.out.println("====PEIXE====");
+        System.out.println("Nome:"+Nome);
+        System.out.println("Especie:"+Especie);
+        System.out.println("Idade:"+Idade);
+        System.out.println("Escama:"+escama);
+        System.out.println("Cor:"+cor);
+        System.out.println("");
+    }
+}
