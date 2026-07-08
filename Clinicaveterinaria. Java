@@ -1,0 +1,27 @@
+package clinicaVeterinaria;
+
+import clinicaVeterinaria.*;
+
+public class main {
+
+    public static void main(String[] args) {
+
+        // polimorfismo
+        animal animal1 = new cachorro(
+            Nome: "Bolinha",
+            Especie: "Mamifero",
+            Idade: 3,
+            Pelagem: "curto e liso",
+            Patas: 4
+        );
+
+        animal animal2 = new papagaio(
+            Nome: "Pirata",
+            Especie: "ave",
+            Idade: 7,
+            bico: "medio e afinado",
+            pena: "saudavel",
+            asa: "saudavel"
+        );
+    }
+}
